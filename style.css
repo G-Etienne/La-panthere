@@ -12,7 +12,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+.lien-nav{
+    font-size: 20px;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -295,16 +297,12 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
 }
 
 .navbar-brand img[src$=svg] {
@@ -701,7 +699,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -774,8 +772,9 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
+.tc-white.tc-color{
+    color: #f7cfbc!important;
+    text-shadow: 5px 5px 8px rgb(56, 56, 56);
 }
 
 .btn-atomic-tangerine {
@@ -1039,4 +1038,59 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+/* -------------------------------------------------------- section de modification header */
+.navbar-header{
+    margin-top: 25px;
+    
+}
+/* partie texte */
+.mg-md.text-center{
+    font-size: 25px;
+    font-weight: bold;
+}
+.service-p{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.citation{
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 50px;
+}
+.citation-who{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.ltc-white.bold-link.btn.btn-lg.btn-clean.btn-rd{
+    background-color: #F3976C;
+    
+}
+.tc-white.txt-color{
+    color: #f7cfbc!important;
+    text-shadow: 5px 5px 8px rgb(56, 56, 56);
+}
+.tc-white.txt-down{
+    color: #ffffff!important;
+    font-size: 25px;
+    background-color: #F3976C;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+strong{
+    font-weight: normal;
+}
+.text-center{
+    font-size: 18px;
+}
+.text-center.text-pre{
+    font-size: 20px;
+}
+.row.row-no-gutters.social{
+    margin-top: 50px;
+    margin-bottom: 50px;    
 }
